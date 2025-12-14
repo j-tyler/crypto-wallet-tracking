@@ -1,0 +1,18 @@
+# Core dependencies
+requests>=2.31.0
+
+# Excel output support
+openpyxl>=3.1.0
+
+# CLI
+argparse  # stdlib, listed for documentation
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+responses>=0.24.0  # For mocking HTTP requests
+
+# Development
+black>=23.0.0
+flake8>=6.1.0
+mypy>=1.7.0
